@@ -6,6 +6,7 @@ public class Loops {
         Scanner s = new Scanner(System.in);
         int value = s.nextInt();
 
+
         for(int i =1; i<=value; i++){
             System.out.print(i + " ");
         }

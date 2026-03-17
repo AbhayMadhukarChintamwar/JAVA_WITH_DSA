@@ -9,6 +9,7 @@ public class Java_Basic {
         System.out.println("a || b " + (a || b));
         System.out.println("!a " + (!a));
 
+
         int marks = 32;
         String res = (marks > 34)?"Pass" :"Fail";
         System.out.println(res);

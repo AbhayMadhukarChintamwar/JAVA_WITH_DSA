@@ -4,7 +4,7 @@ public class MaxValue {
     static int max(int[] arr, int start, int end){
 
         if (arr.length ==0) {
-            return -1;
+            return 0;
         }
         int maxVal = arr[start];
         for (int i = 0; i <= end; i++) {
@@ -13,6 +13,7 @@ public class MaxValue {
             }
         }
         return maxVal;
+        
     }
 
      static void main(String[] args) {

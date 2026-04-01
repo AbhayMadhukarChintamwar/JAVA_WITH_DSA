@@ -1,8 +1,20 @@
 package Arrays;
-
 import java.util.Scanner;
 
-public class PrintNegativeValue {
+public class TwoDReverseArray {
+
+    static void ReverseTwoDArray(int[][] arr){
+
+        System.out.println(" Reverse 2 D Array ");
+
+        for (int i = arr.length-1; i >=0 ; i--) {
+            for (int j = arr.length-1; j >=0 ; j--) {
+                System.out.print(arr[i][j]+ " ");
+            }
+            System.out.println();
+        }
+    }
+
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int m =sc.nextInt();
@@ -16,14 +28,17 @@ public class PrintNegativeValue {
             }
         }
 
+        System.out.println(" 2 D Array ");
+
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
-                if (arr[i][j]<0) {
-                    System.out.print(arr[i][j]  + " ");
-                }
+                System.out.print(arr[i][j]  + " ");
             }
             System.out.println();
 
         }
+
+        ReverseTwoDArray(arr);
+
     }
 }

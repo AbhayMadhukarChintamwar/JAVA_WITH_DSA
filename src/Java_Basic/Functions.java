@@ -14,8 +14,8 @@ public class Functions {
         int[][] arr = new int[n][m];
         System.out.println("Enter the value of array ");
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                arr[i][j]  = s.nextInt();
+            for (int j = 0; j < arr.length; j++) { 
+                arr[i][j]  = s.nextInt();  
             }
 
         }

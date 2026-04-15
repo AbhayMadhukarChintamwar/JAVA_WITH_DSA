@@ -1,1 +1,1 @@
-This is Java full stack series
+This is Java Programming and Data Structure and Algorithms Series

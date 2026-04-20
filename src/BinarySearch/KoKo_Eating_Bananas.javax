@@ -1,0 +1,28 @@
+class KoKo_Eating_Bananas{
+    public long eatBananas(int[] piles, int n, int k) {
+        long h = 0;
+        for(int i=0; i<n; i++) {
+            h += (long)((double)(piles[i] + k - 1) / k);
+        }
+        return h;
+    }
+    public int minEatingSpeed(int[] piles, int h) {
+        int low = 1;
+        int high = 0;
+        for (int p : piles) {high = Math.max(high, p);}
+        int ans = high;
+        while(high>=low){
+            int mid = (high+low)/2;
+            long  tr = eatBananas(piles,piles.length,mid);
+            if(tr<=h){
+                ans = mid;
+                high = mid-1;
+            }else{
+                low = mid+1;
+            }
+        }
+        return ans;
+    }
+}
+
+//  https://leetcode.com/problems/koko-eating-bananas/

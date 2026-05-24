@@ -14,4 +14,11 @@ public class Print_All_Substring {
         }
 
     }
+
 }
+
+            // A Ab Abh Abha Abhay 
+            // b bh bha bhay 
+            // h ha hay 
+            // a ay 
+            // y 

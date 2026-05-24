@@ -17,6 +17,7 @@ class Two_D_Array {
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
+            
         }
     }
     

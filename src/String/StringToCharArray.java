@@ -5,7 +5,9 @@ public class StringToCharArray {
         String s = "Abhay";
         char[] charArray = s.toCharArray();
         for (char c : charArray) {
+            
             System.out.print(c + " ");
         }
+        
     }
 }

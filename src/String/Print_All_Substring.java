@@ -5,11 +5,12 @@ public class Print_All_Substring {
         String a = "Abhay";
 
         int s = a.length();
-        for (int i = 0; i < a.length(); i++) {
+        for (int i = 0; i <= a.length(); i++) {
             for (int j = i + 1; j <= a.length(); j++) {
-                System.out.println(a.substring(i, j));
+                System.out.print(a.substring(i, j) +" ");
 
             }
+            System.out.println();
         }
 
     }

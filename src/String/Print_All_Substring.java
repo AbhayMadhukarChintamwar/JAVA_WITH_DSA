@@ -1,5 +1,3 @@
-package String;
-
 public class Print_All_Substring {
     public static void main(String[] args) {
         String a = "Abhay";

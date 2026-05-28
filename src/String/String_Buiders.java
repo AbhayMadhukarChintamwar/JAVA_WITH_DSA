@@ -1,5 +1,3 @@
-package String;
-
 public class String_Buiders {
     public static void main(String[] args) {
         StringBuilder s = new StringBuilder("Abhay");

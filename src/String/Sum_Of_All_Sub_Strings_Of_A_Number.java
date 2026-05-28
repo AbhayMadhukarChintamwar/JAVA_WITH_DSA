@@ -1,5 +1,3 @@
-package String;
-
 public class Sum_Of_All_Sub_Strings_Of_A_Number {
     public static void main(String[] args) {
         String str = "123";

@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
                                                                               
     public static boolean areAnagrams(String s1, String s2) {
@@ -11,8 +12,21 @@ class Solution {
       
       Arrays.sort(a);
       Arrays.sort(b);
+      for (int i = 0; i < a.length; i++) {
+        if (a[i]!=b[i]) {
+            return false;   
+        }
+      }
+      return true;
       
-      return Arrays.equals(a,b);
+    //   return Arrays.equals(a,b);
+    }
+    public static void main(String[] args) {
+        String s1 = "silent";
+        String s2 = "listen";
+
+        System.out.println(areAnagrams(s1, s2));
+        
     }
 }
 
